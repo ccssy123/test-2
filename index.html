@@ -9,91 +9,401 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="swiper.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <style type="text/css">
     	.swiper-slide{
 	width: 400px;
 }
+.container{
+    max-width: 1800px;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 24vh;
+}
+.bg-1 img{
+    position: absolute;
+    top: 20vh;
+    right: 44%;
+    width: 12%;
+    height: auto;
+
+}
+.bg-2 img{
+    position: absolute;
+    top: 20vh;
+    right: 37%;
+    width: 6%;
+    height: auto;
+}
+.bg-3 img{
+    position: absolute;
+    top: 20vh;
+    right: 25%;
+    width: 8%;
+    height: auto;
+}
+.bg-4 img{
+    position: absolute;
+    top: 80vh;
+    right: 35%;
+    height: auto;
+}
+.bg-5 img{
+    position: absolute;
+    top: 70vh;
+    right: 26%;
+    height: auto;
+}
+.bg-6 img{
+    position: absolute;
+    top: 80vh;
+    right: 11%;
+    height: auto;
+}
+.left-bottom-bg img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35%;
+    height: auto;
+
+}
+.left-top-bg img{
+    position: absolute;
+    top: 15vh;
+    
+    width: 30%;
+    height: auto;
+
+}
+.right-top-bg img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: auto;
+}
+.bg-light{
+    background: none!important;
+}
+    
     </style>
 </head>
 
 <body>
-    <div class="swiper-container">
+    <div class="container">
+        <div data-aos="fade-down"
+     data-aos-duration="3000" class="bg-1">
+            <img src="未命名檔案夾/Desktop HD Copy 4-2.png">
+        </div>
+      <div data-aos="fade-down"
+     data-aos-duration="3000" class=" bg-2">
+            <img src="未命名檔案夾/Desktop HD Copy 4-3.png">
+        </div>
+           <div data-aos="fade-down"
+     data-aos-duration="3000" class="bg-3">
+            <img src="未命名檔案夾/Desktop HD Copy 4-4.png">
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="3000"class="bg-4">
+            <img src="未命名檔案夾/Desktop HD Copy 4-5.png">
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="3000"class="bg-5">
+            <img src="未命名檔案夾/Desktop HD Copy 4-6.png">
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="3000" class="bg-6">
+            <img src="未命名檔案夾/Desktop HD Copy 4-7.png">
+        </div> 
+        <div data-aos="fade-down"
+     data-aos-duration="3000" class="left-top-bg">
+            <img src="未命名檔案夾/Desktop HD Copy 4-9.png">
+        </div>
+        <div class="left-bottom-bg">
+            <img src="未命名檔案夾/Desktop HD Copy 4-1.png">
+        </div>
+        <div class="right-top-bg">
+            <img src="未命名檔案夾/Desktop HD Copy 4-8.png">
+        </div>
+    <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="fia.png" width="138"  class="d-inline-block align-top" alt="">
+  </a>
+</nav>
+    <div data-aos="zoom-in"
+     data-aos-duration="3000" class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div  class="swiper-slide">
                 <div class="card-1">
                     <div class="sliderText">
-                        <h3>Slide one</h3>
+                        
                     </div>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="card-1">
                     <div class="sliderText">
-                        <h3>Slide one</h3>
+                        
                     </div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="card-1">
-                    <div class="sliderText">
-                        <h3>Slide one</h3>
-                    </div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="card-1">
-                    <div class="sliderText">
-                        <h3>Slide one</h3>
-                    </div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="card-1">
                     <div class="sliderText">
-                        <h3>Slide one</h3>
+                        
                     </div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="card-1">
                     <div class="sliderText">
-                        <h3>Slide one</h3>
+                        
                     </div>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusantium neque mollitia dignissimos at ut corporis amet aut aspernatur quia.</p>
-                        <a href="#">enter</a>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card-1">
+                    <div class="sliderText">
+                        
+                    </div>
+                     <div class="content">
+                        <h3>一般牙科或家庭牙科</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <p>1.洗牙</p>
+                                <p>2.蛀牙填補</p>
+                                <p>3.根管治療</p>
+                                <p>4.簡單拔牙</p>
+                                <p>5.口腔粘膜疾病診斷</p>
+                            </div>
+                            <div class="col-6">
+                                <p>6.牙齦腫痛</p>
+                                <p>7.口腔衛生衛教指導</p>
+                                
+                            </div>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
         </div>
     </div>
+ 
+     </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js
 "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 <script src="swiper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 <script>
+AOS.init();
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
       grabCursor: true,
